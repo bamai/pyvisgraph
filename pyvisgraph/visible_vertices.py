@@ -31,7 +31,7 @@ CW = -1
 COLLINEAR = 0
 """Due to floating point representation error, some functions need to
    truncate floating point numbers to a certain tolerance."""
-COLIN_TOLERANCE = 10
+COLIN_TOLERANCE = 8
 T = 10**COLIN_TOLERANCE
 T2 = 10.0**COLIN_TOLERANCE
 
